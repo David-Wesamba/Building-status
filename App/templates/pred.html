@@ -1,0 +1,48 @@
+{% extends "base.html"%}
+
+{% block content %}
+<div class="container">
+<h1>Recent checks</h1>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Floors</th>
+        <th scope="col">Occupancy</th>
+        <th scope="col">State</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for obj in objects %}
+      <tr>
+        <th>{{obj.id}}</th>
+        <td><a href="{% url 'view' obj.id %}">{{obj.name}}</a></td>
+        <td>{{obj.floors}}</td>
+        <td>{% if obj.occupancy == 0 %}
+            Commercial
+            {% elif obj.occupancy == 1 %}
+            Residential
+            {% elif obj.occupancy == 2 %}
+            industrial
+        {%endif %}
+        </td>
+        <td>{% if obj.predictions == "['Very weak']"%}
+            <h3 style="color: red;font-size: 18px;">Very weak </h3>
+            {% elif obj.predictions == "['Very strong']"%}
+            <h3 style="color: rgb(4, 189, 4);font-size: 18px;">Very strong</h3>
+            {% elif obj.predictions == "['Very Strong']"%}
+            <h3 style="color: rgb(4, 189, 4);font-size: 18px;">Very strong</h3>
+            {% elif obj.predictions == "['Strong']"%}
+            <h3 style="color: rgb(94, 94, 248);font-size: 18px;">Strong</h3>
+            {% elif obj.predictions == "['Weak']"%}
+            <h3 style="color: rgb(255, 128, 128);font-size: 18px;">Weak</h3>
+            {% elif obj.predictions == "['weak']"%}
+            <h3 style="color: rgb(255, 128, 128);font-size: 18px;">Weak</h3>
+            {% endif %}
+            </td>
+      </tr>
+      {% endfor %}
+    </div>
+      
+  {% endblock content %}

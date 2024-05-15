@@ -1,0 +1,70 @@
+Building_Name,Sesmic_Zone,Occupancy,Floors,Roofing,Cracks,L_Aresstors,Anti_EQ_Designs,Soil_Type,Wall_Thickness,Status
+a,Yes,Commercial,2,Leaks,Yes,Yes,No,Clay,Thick,Weak
+s,No,Industrial,1,No_Leaks,No,No,Yes,Silt,Thin,Strong
+d,No,Residential,3,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+ss,Yes,Commercial,7,Leaks,Yes,No,No,Silt,Thin,Very weak
+az,Yes,Commercial,4,Leaks,No,No,No,Clay,Thin,Very weak
+zx,No,Residential,2,No_Leaks,No,No,No,Sandy,Thin,Weak
+cd,Yes,Industrial,5,No_Leaks,Yes,No,Yes,Loam,Thick,Strong
+vg,No,Residential,6,No_Leaks,No,No,No,Loam,Thick,Strong
+yt,No,Industrial,8,No_Leaks,No,Yes,Yes,Rocky,Thick,Very Strong
+zxz,No,Residential,2,No_Leaks,No,Yes,Yes,Sandy,Thick,Very Strong
+al,Yes,Commercial,2,Leaks,Yes,No,No,Clay,Thick,Very weak
+sw,No,Industrial,1,No_Leaks,No,No,Yes,Loam,Thin,Very strong
+dy,No,Residential,3,No_Leaks,No,Yes,No,Sandy,Thick,Very strong
+ssk,Yes,Commercial,7,Leaks,Yes,Yes,No,Rocky,Thin,weak
+azo,Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thin,Very weak
+zxz,No,Residential,2,No_Leaks,No,Yes,No,Loam,Thick,Strong
+cdq,Yes,Commercial,5,No_Leaks,Yes,No,Yes,Clay,Thin,Weak
+vgu,No,Industrial,6,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+ytt,No,Residential,8,No_Leaks,No,Yes,Yes,Silt,Thick,Very Strong
+vgdx,Yes,Industrial,3,Leaks,Yes,Yes,No,Clay,Thin,Very weak
+aee,No,Commercial,4,Leaks,Yes,Yes,No,Clay,Thick,Weak
+sqw,No,Industrial,3,No_Leaks,No,No,Yes,Silt,Thick,Strong
+dqi,Yes,Residential,7,Leaks,Yes,Yes,No,Sandy,Thin,Very weak
+ssu,No,Commercial,7,No_Leaks,No,Yes,Yes,Rocky,Thin,Very weak
+azp,Yes,Commercial,5,Leaks,No,No,No,Sandy,Thin,Weak
+zxr,No,Residential,1,No_Leaks,No,No,Yes,Loam,Thick,Very strong
+cdz,No,Industrial,8,No_Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+vgdxt,No,Commercial,4,No_Leaks,Yes,Yes,Yes,Sandy,Thin,Strong
+ytyt,Yes,Industrial,2,No_Leaks,No,No,Yes,Silt,Thin,Strong
+swy,No,Industrial,1,No_Leaks,No,No,Yes,Loam,Thin,Very strong
+yer,Yes,Commercial,5,No_Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+siu,Yes,Industrial,1,Leaks,Yes,No,No,Clay,Thin,Very weak
+dhi,No,Residential,6,Leaks,No,Yes,No,Clay,Thick,Weak
+sst,Yes,Commercial,7,Leaks,No,Yes,Yes,Rocky,Thin,Strong
+azp,No,Commercial,8,Leaks,Yes,No,No,Sandy,Thick,Weak
+zxn,No,Residential,2,No_Leaks,No,Yes,Yes,Loam,Thick,Very strong
+cdc,Yes,Industrial,1,No_Leaks,Yes,Yes,Yes,Silt,Thin,Strong
+vga,No,Residential,3,No_Leaks,Yes,No,No,Loam,Thick,Weak
+ytv,Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thick,Very weak
+cdt,Yes,Industrial,5,No_Leaks,Yes,No,Yes,Loam,Thick,Strong
+ssiv,Yes,Commercial,7,Leaks,Yes,No,No,Silt,Thin,Very weak
+aty,No,Industrial,4,Leaks,Yes,Yes,No,Clay,Thick,Weak
+peo,No,Industrial,6,No_Leaks,No,No,No,Loam,Thick,Strong
+poie,Yes,Residential,3,Leaks,Yes,Yes,No,Clay,Thin,Very weak
+cdzs,No,Commercial,8,No_Leaks,No,Yes,Yes,Loam,Thick,Very strong
+yer,Yes,Commercial,5,Leaks,Yes,No,No,Clay,Thin,Very weak
+siuo,No,Industrial,1,No_Leaks,No,No,Yes,Rocky,Thin,Very strong
+dhi,No,Residential,6,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+sst,Yes,Commercial,7,Leaks,Yes,Yes,Yes,Rocky,Thin,Weak
+rtp,Yes,Industrial,3,Leaks,Yes,No,No,Clay,Thin,Very weak
+zxn,No,Residential,4,No_Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+zxno,No,Residential,2,No_Leaks,No,Yes,Yes,Loam,Thin,Strong
+swrt,No,Industrial,1,No_Leaks,No,No,Yes,Rocky,Thick,Very strong
+ytv,Yes,Commercial,5,No_Leaks,Yes,No,Yes,Silt,Thick,Strong
+aqw,Yes,Residential,2,Leaks,Yes,Yes,No,Clay,Thick,Weak
+azoa,No,Industrial,4,No_Leaks,No,No,Yes,Silt,Thin,Strong
+dqip,Yes,Residential,7,No_Leaks,Yes,No,Yes,Sandy,Thick,Strong
+cdti,Yes,Commercial,6,No_Leaks,Yes,No,Yes,Clay,Thin,Weak
+yerr,Yes,Commercial,5,No_Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+siup,Yes,Industrial,1,Leaks,Yes,No,No,Clay,Thin,Very weak
+vgap,No,Residential,3,No_Leaks,Yes,No,No,Loam,Thick,Weak
+ytvb,Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thick,Very weak
+dvd,No,Residential,8,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+ssup,Yes,Commercial,3,Leaks,Yes,No,No,Silt,Thin,Very weak
+zxrz,No,Commercial,1,No_Leaks,No,No,No,Silt,Thin,Strong
+cdz,No,Industrial,8,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+dhia,No,Residential,6,Leaks,No,Yes,No,Clay,Thin,Weak
+bse,Yes,Residential,7,Leaks,Yes,Yes,Yes,Rocky,Thick,Strong
+ytvbf,Yes,Industrial,5,No_Leaks,Yes,No,Yes,Loam,Thick,Strong

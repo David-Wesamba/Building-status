@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navi{
+    display: flex;
+    width: 100%;
+    background-color: #eee;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.title h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: yellowgreen;
+}
+.nav-man-list ul {
+    display: flex;
+    color: #000;
+}
+.nav-man-list ul li{
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-man-list ul li a{
+    text-decoration: none;
+    
+    text-align: center;
+}
+.contacts ul{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+.contacts ul li{
+    height: 100%;
+    border-right: 0.5px solid black;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-left: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    
+}
+.contacts ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.contacts ul li a:hover{
+    color: yellowgreen;
+}
+.navi-link{
+    text-decoration: none;
+    font-size: 20px;
+    height: 20px;
+    width: 40px;
+    transition: .5s;
+    position: relative;
+    color: black;
+    background: transparent;
+    z-index: 1;
+    text-align: center;
+
+}
+.navi-link::before{
+    content :"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid yellowgreen;
+    z-index: -1;
+    transition: .5s;
+}
+.navi-link:hover::before{
+    width: 100%;
+}
+.active{
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid yellowgreen;
+    font-weight: 900;
+    color: yellowgreen;
+}
+.navi-link:hover, .active{
+    color: yellowgreen;
+    
+}

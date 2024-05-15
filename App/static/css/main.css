@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 2fr 3.2fr;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    grid-gap: 10px;
+}
+.cont .section2{
+    width: 400px;
+    height: 100vh;
+}
+/* 
+
+
+
+}
+.cont .section1{
+
+} */
+.about-header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.about-header h1{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    position: relative;
+
+} 
+.about-header h1::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+} 
+.about-header p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.about-read-more{
+    background-color: yellowgreen;
+    width: 100px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 70px; 
+    text-align: center;
+    left: 70px;
+    color:black;
+    border: none;
+}
+
+.about-mal-container{
+    width: 90%;
+    margin: 0px;
+    padding: 10px 20px;
+}
+.about-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image img:hover{
+    transform: (1.2);
+}
+.about-content{
+    flex: 1;
+
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    color: #666;
+}
+.man-cont1{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-gap: 10px;
+}.description{
+    width: 400px;
+}
+.man-cont1 .card-header{
+    font-size: 25px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+.man-cont1 .state{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.man-cont1 .state .status{
+    width: 90%;
+    height: 250px;
+    /* background: black; */
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+}
+.man-cont1 .state .status .pr-cl{
+    text-align: center;  
+}
+.man-cont1 .state .status .pr-cl h1{
+    padding-bottom: 10px ;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+.man-cont1  .w-cl{
+    border: 2px solid #d0342c;
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    
+}
+.man-cont1  .w-cl::before{
+    content : "";
+    width: 100%;
+    height: 100%;
+    background-color:#d0342c;
+    opacity: .2;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+.man-cont1 .vw-cl{
+    border: 2px solid red;
+    position: relative;
+}
+.man-cont1  .vw-cl::before{
+    content : "";
+    width: 100%;
+    height: 100%;
+    background-color:red;
+    opacity: .5;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+.man-cont1 .vs-cl{
+    border: 1px solid green;
+    position: relative;
+}
+.man-cont1  .vs-cl::before{
+    content : "";
+    width: 100%;
+    height: 100%;
+    background-color:green;
+    opacity: .5;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+
+.man-cont1 .s-cl{
+    border: 1px solid green;
+    position: relative;
+}
+.man-cont1  .s-cl::before{
+    content : "";
+    width: 100%;
+    height: 100%;
+    background-color:rgb(75, 201, 75);
+    opacity: .2;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+.man-cont1  .w-cl .pr-cl h1{
+    color: #d0342c;
+    border-bottom: 1px solid #d0342c;
+}
+.man-cont1  .vw-cl .pr-cl h1{
+    border-bottom: 1px solid red;
+}
+.man-cont1  .s-cl .pr-cl h1{
+    color: rgb(75, 201, 75);
+    border-bottom: 1px solid rgb(75, 201, 75);
+}
+.man-cont1  .vs-cl .pr-cl h1{
+    color: Green;
+    border-bottom: 1px solid green;
+}
+.man-cont1 .state .exp-facility{
+    background:transparent;
+    width: 100%;
+    min-height : 300px;
+    border-radius: 5px;
+    border-radius: 1px solid black;
+}

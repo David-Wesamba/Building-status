@@ -1,0 +1,23 @@
+{% extends "base.html"%}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="cont">
+    <div class="section1">
+        <h1>{{text}}</h1>
+        <h2>Welcome to Your Trusted Partner In Building Excellence</h2>
+        <p>check your building Strength using what you observe.
+            like cracks , wall thickness ,etc.
+        </p>
+        <h6>for more about building Strength</h6>
+        <a href="#" class="read-more">read more</a>
+    </div>
+    <div class="section2">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <input class="btn btn-info" type="submit" value="check status">
+        </form>
+    </div>
+</div>    
+{% endblock content %}

@@ -1,0 +1,100 @@
+Sesmic_Zone,Occupancy,Floors,Roofing,Cracks,L_Aresstors,Anti_EQ_Designs,Soil_Type,Wall_Thickness,Status
+Yes,Commercial,2,Leaks,Yes,Yes,No,Clay,Thick,Weak
+No,Industrial,1,No_Leaks,No,No,Yes,Silt,Thin,Strong
+No,Residential,3,No_Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+Yes,Commercial,7,Leaks,Yes,No,No,Silt,Thin,Very weak
+Yes,Commercial,4,Leaks,No,No,No,Clay,Thin,Very weak
+No,Residential,2,Leaks,No,No,No,Sandy,Thin,Weak
+Yes,Industrial,5,Leaks,Yes,No,Yes,Loam,Thick,Strong
+No,Residential,6,Leaks,No,No,No,Loam,Thick,Strong
+No,Industrial,8,Leaks,No,Yes,Yes,Rocky,Thick,Very Strong
+No,Residential,2,Leaks,No,Yes,Yes,Sandy,Thick,Very Strong
+Yes,Commercial,2,Leaks,Yes,No,No,Clay,Thick,Very weak
+No,Industrial,1,Leaks,No,No,Yes,Loam,Thin,Very strong
+No,Residential,3,Leaks,No,Yes,No,Sandy,Thick,Very strong
+Yes,Commercial,7,Leaks,Yes,Yes,No,Rocky,Thin,weak
+Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thin,Very weak
+No,Residential,2,Leaks,No,Yes,No,Loam,Thick,Strong
+Yes,Commercial,5,Leaks,Yes,No,Yes,Clay,Thin,Weak
+No,Industrial,6,Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+No,Residential,8,Leaks,No,Yes,Yes,Silt,Thick,Very Strong
+Yes,Industrial,3,Leaks,Yes,Yes,No,Clay,Thin,Very weak
+No,Commercial,4,Leaks,Yes,Yes,No,Clay,Thick,Weak
+No,Industrial,3,Leaks,No,No,Yes,Silt,Thick,Strong
+Yes,Residential,7,Leaks,Yes,Yes,No,Sandy,Thin,Very weak
+No,Commercial,7,Leaks,No,Yes,Yes,Rocky,Thin,Very weak
+Yes,Commercial,5,Leaks,No,No,No,Sandy,Thin,Weak
+No,Residential,1,Leaks,No,No,Yes,Loam,Thick,Very strong
+No,Industrial,8,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+No,Commercial,4,Leaks,Yes,Yes,Yes,Sandy,Thin,Strong
+Yes,Industrial,2,Leaks,No,No,Yes,Silt,Thin,Strong
+No,Industrial,1,Leaks,No,No,Yes,Loam,Thin,Very strong
+Yes,Commercial,5,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+Yes,Industrial,1,Leaks,Yes,No,No,Clay,Thin,Very weak
+No,Residential,6,Leaks,No,Yes,No,Clay,Thick,Weak
+Yes,Commercial,7,Leaks,No,Yes,Yes,Rocky,Thin,Strong
+No,Commercial,8,Leaks,Yes,No,No,Sandy,Thick,Weak
+No,Residential,2,Leaks,No,Yes,Yes,Loam,Thick,Very strong
+Yes,Industrial,1,Leaks,Yes,Yes,Yes,Silt,Thin,Strong
+No,Residential,3,Leaks,Yes,No,No,Loam,Thick,Weak
+Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thick,Very weak
+Yes,Industrial,5,Leaks,Yes,No,Yes,Loam,Thick,Strong
+Yes,Commercial,7,Leaks,Yes,No,No,Silt,Thin,Very weak
+No,Industrial,4,Leaks,Yes,Yes,No,Clay,Thick,Weak
+No,Industrial,6,Leaks,No,No,No,Loam,Thick,Strong
+Yes,Residential,3,Leaks,Yes,Yes,No,Clay,Thin,Very weak
+No,Commercial,8,Leaks,No,Yes,Yes,Loam,Thick,Very strong
+Yes,Commercial,5,Leaks,Yes,No,No,Clay,Thin,Very weak
+No,Industrial,1,Leaks,No,No,Yes,Rocky,Thin,Very strong
+No,Residential,6,Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+Yes,Commercial,7,Leaks,Yes,Yes,Yes,Rocky,Thin,Weak
+Yes,Industrial,3,Leaks,Yes,No,No,Clay,Thin,Very weak
+No,Residential,4,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+No,Residential,2,Leaks,No,Yes,Yes,Loam,Thin,Strong
+No,Industrial,1,Leaks,No,No,Yes,Rocky,Thick,Very strong
+Yes,Commercial,5,Leaks,Yes,No,Yes,Silt,Thick,Strong
+Yes,Residential,2,Leaks,Yes,Yes,No,Clay,Thick,Weak
+No,Industrial,4,Leaks,No,No,Yes,Silt,Thin,Strong
+Yes,Residential,7,Leaks,Yes,No,Yes,Sandy,Thick,Strong
+Yes,Commercial,6,Leaks,Yes,No,Yes,Clay,Thin,Weak
+Yes,Commercial,5,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+Yes,Industrial,1,Leaks,Yes,No,No,Clay,Thin,Very weak
+No,Residential,3,Leaks,Yes,No,No,Loam,Thick,Weak
+Yes,Industrial,4,Leaks,Yes,No,No,Silt,Thick,Very weak
+No,Residential,8,Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+Yes,Commercial,3,Leaks,Yes,No,No,Silt,Thin,Very weak
+No,Commercial,1,Leaks,No,No,No,Silt,Thin,Strong
+No,Industrial,8,Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+No,Residential,6,Leaks,No,Yes,No,Clay,Thin,Weak
+Yes,Residential,7,Leaks,Yes,Yes,Yes,Rocky,Thick,Strong
+Yes,Industrial,5,Leaks,Yes,No,Yes,Loam,Thick,Strong
+No,Residential,6,Leaks,No,No,Yes,Sandy,Thick,Very strong
+Yes,Industrial,1,Leaks,Yes,No,No,Clay,Thin,Weak
+No,Industrial,4,Leaks,Yes,No,Yes,Silt,Thin,Very weak
+No,Commercial,7,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+Yes,Residential,8,Leaks,No,No,No,Loam,Thin,Weak
+Yes,Commercial,5,Leaks,No,Yes,No,Silt,Thick,Strong
+No,Residential,3,Leaks,No,No,Yes,Sandy,Thick,Very strong
+No,Industrial,2,Leaks,No,Yes,Yes,Rocky,Thin,Strong
+No,Commercial,5,Leaks,Yes,No,No,Clay,Thick,Very weak
+Yes,Residential,4,Leaks,No,Yes,No,Loam,Thin,Weak
+Yes,Commercial,1,Leaks,No,Yes,Yes,Silt,Thick,Strong
+No,Commercial,7,Leaks,Yes,No,Yes,Loam,Thin,Very weak
+No,Industrial,6,Leaks,No,No,No,Sandy,Thin,Weak
+Yes,Industrial,8,Leaks,No,Yes,No,Rocky,Thick,Very strong
+No,Residential,8,Leaks,Yes,No,Yes,Clay,Thick,Weak
+Yes,Industrial,7,Leaks,No,Yes,No,Silt,Thin ,Strong
+No,Commercial,4,Leaks,No,No,Yes,Silt,Thick,Weak
+Yes,Residential,2,Leaks,Yes,Yes,No,Clay,Thin,Very weak
+No,Industrial,6,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+Yes,Industrial,1,Leaks,No,No,Yes,Loam,Thick,Strong
+No,Commercial,3,Leaks,Yes,No,Yes,Clay,Thin,Weak
+Yes,Industrial,5,Leaks,No,Yes,Yes,Sandy,Thick,Very strong
+No,Commercial,4,Leaks,Yes,No,No,Silt,Thin,Very weak
+No,Residential,2,Leaks,Yes,Yes,No,Clay,Thick,Weak
+Yes,Industrial,1,Leaks,No,Yes,Yes,Silt,Thin,Strong
+No,Industrial,6,Leaks,No,Yes,Yes,Rocky,Thick,Very strong
+Yes,Commercial,8,Leaks,Yes,No,No,Clay,Thin,Very strong
+No,Residential,7,Leaks,No,Yes,No,Loam,Thick ,Weak
+No,Residential,6,Leaks,Yes,No,Yes,Sandy,Thick,Strong
+Yes,Industrial,4,Leaks,No,Yes,Yes,Rocky,Thick,Very strong

@@ -1,0 +1,144 @@
+{% extends "base.html"%}
+
+{% block content %}
+    <div class="man-cont1" style="margin-top: 20px;">
+        <div class="description">
+            <div class="card">
+                <div class="card-header" style="text-align: center;">
+                  {{object.name}}
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">label</th>
+                            <th scope="col">Value</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Floors</td>
+                                <td>
+                                    <h6>{{object.floors}}</h6>
+                                </td>
+                              </tr>
+                          <tr>
+                            <td>OCCUPANCY</td>
+                            <td>{% if object.occupancy == 0 %}
+                                 <h6>Commercial</h6>
+                                {% elif object.occupancy == 1 %}
+                                 <h6>Residential</h6>
+                                {% elif object.occupancy == 2 %}
+                                <h6>Industrial</h6>
+                            {%endif %}</td>
+                          </tr>
+                          <tr>
+                            <td>Zone</td>
+                            <td>{% if object.seismic_zone == 0 %}
+                                <h6>Location Not Seismic</h6>
+                               {% elif object.seismic_zone == 1 %}
+                                <h6>Seimic Zone</h6>
+                           {%endif %}</td></td>
+                          </tr>
+                          <tr>
+                            <td>Cracks</td>
+                            <td>{% if object.cracks == 0 %}
+                                <h6> No Cracks</h6>
+                               {% elif object.cracks == 1 %}
+                                <h6>Cracks Are Visible</h6>
+                           {%endif %}</td>
+                          </tr>
+                          <tr>
+                            <td>Arrestors</td>
+                            <td>{% if object.l_arrestors == 0 %}
+                                <h6> Arrestors not installed</h6>
+                               {% elif object.l_arrestors == 1 %}
+                                <h6>Arrestors installed</h6>
+                           {%endif %}</td>
+                          </tr>
+                          <tr>
+                            <td>Anti Earthquake Design</td>
+                            <td>{% if object.anti_eathquake == 0 %}
+                                <h6> No AEQ Designs</h6>
+                               {% elif object.anti_eathquake == 1 %}
+                                <h6>Designed</h6>
+                           {%endif %}</td>
+                          </tr>
+                          <tr>
+                            <td>Soil Type</td>
+                            <td>{% if object.soil_type == 0 %}
+                                <h6> Clay </h6>
+                               {% elif object.soil_type == 1 %}
+                                <h6>Silt</h6>
+                               {% elif object.soil_type == 2 %}
+                                <h6>Sandy</h6>
+                               {% elif object.soil_type == 3 %}
+                                <h6>Loam</h6>
+                               {% elif object.soil_type == 4 %}
+                                <h6>Rocky</h6>
+                           {%endif %}</td>
+                          </tr>
+                          <tr>
+                            <td>Wall Thickness</td>
+                            <td>{% if object.wall_thickness == 0 %}
+                                <h6>Thin</h6>
+                               {% elif object.wall_thickness == 1 %}
+                                <h6>Thick</h6>
+                           {%endif %}</td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+
+        </div>
+        <div class="state">
+        <div class="status
+        {% if state == 'Weak' %}
+            w-cl
+        {% elif state == 'weak' %}
+            w-cl
+        {% elif state == 'Very weak' %}
+            vw-cl
+        {% elif state == 'Very strong' %}
+            vs-cl
+        {% elif state == 'Very Strong' %}
+            vs-cl
+        {% elif state == 'Strong' %}
+            s-cl
+        {% endif %}
+         ">
+        <div class="pr-cl">
+            <h1><span style="font-size: 20px; padding-right: 10px ;">state |   </span>{{state}}</h1>
+        </div>
+        <div class="reinfoce-help">
+            {%if state == 'Weak' %}
+                <h3>try this</h3>
+                <h6>{{help_a}}</h6>
+                <h6>{{help_c}}</h6>
+                <h6>{{help_r}}</h6>
+            {%elif state == 'Very weak' %}
+                <h3>try this</h3>
+                <h6>{{help_a}}</h6>
+                <h6>{{help_c}}</h6>
+                <h6>{{help_r}}</h6>
+            {% else %}
+                <h6>Your Building is strong enough</h6>
+                
+            {%endif%}
+        </div>                 
+        </div>
+        <div class="exp-facility">
+            <h2>Explanation Facility</h2>
+            <h5>{{state}} because </h5>
+            {% for exp in exp_array %}
+                    <div>
+                        {{exp}}
+                    </div>
+                {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,27 @@
+{% extends "base.html"%}
+{% load static %}
+{% block content %}
+<div class="header">
+    <h1>About us</h1>
+    <p>Strength of a building is a key factor that allows people to occupy a certain place.
+    </p>
+</div>
+<div class="about-mal-container">
+    <section class="about-about">
+    <div class="about-image"></div>
+     <img src="{% static 'images/building.jpg' %}" alt="">
+    </div>
+    <div class="about-content"> 
+        <h2>Very strong building more preferance</h2>
+        <h3>Very weak building less preferance</h3>
+         <p>Strength of a bulding is determined by a checklist of factors
+            such as surface irregularities e.g cracks, unevenness. Other factors are  
+           soil type, resilient to environmental factors, wall thickness and quality 
+           of materials like the roofing.</p>
+         <a href="" class="about-read-more">Read more</a>
+
+    </div>
+    </section>
+</div>
+    
+{% endblock content %}
